@@ -1,0 +1,410 @@
+/* Navigasi */
+
+#navbarNav li {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.btn-primary{
+  background: #5CB85F;
+  color: white;
+  border-color: #5CB85F;
+  height: 36px;
+  width: 81px;
+  border: none;
+}
+.btn-primary1{
+  background: #0D28A6;
+  color: #0D28A6;
+  border-color: #0D28A6;
+  height: 34px;
+  width: 100px;
+}
+
+.bg,
+.bg1 {
+  position: absolute;
+  left: 0;
+}
+.bg {
+  top: 0;
+  background-color: #f1f3ff;
+  width: 1440px;
+  height: 500px;
+}
+.bg1 {
+  top: 164px;
+  border-radius: 60px 0 0 0;
+  background-color: var(--primary-darkblue-04);
+  width: 704px;
+  height: 243px;
+}
+.img-car,
+.mercedes-car-eqc-300kw-edition {
+  position: absolute;
+  width: 704px;
+  height: 407px;
+}
+.mercedes-car-eqc-300kw-edition {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.img-car {
+  top: 97px;
+  left: 736px;
+}
+.selamat-datang-di,
+.sewa-rental {
+  position: absolute;
+  top: 177px;
+  left: 136px;
+  line-height: 150%;
+  display: inline-block;
+  width: 568px;
+}
+.selamat-datang-di {
+  top: 301px;
+  font-size: var(--body-14-bold-size);
+  line-height: 20px;
+  font-weight: 300;
+  width: 468px;
+}
+.hero-section {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 1440px;
+  height: 504px;
+  text-align: left;
+  font-size: 36px;
+  color: var(--neutral-011);
+  font-family: var(--body-14-bold);
+}
+.cari-mobil01-child {
+  position: absolute;
+  top: 458px;
+  left: 196px;
+  border-radius: 8px;
+  background-color: var(--neutral-01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 1047px;
+  height: 106px;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 300;
+}
+.input-field {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-01);
+  border: 1px solid var(--neutral-02);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.helper-text-label {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 14px;
+  font-weight: 300;
+  color: var(--neutral-60);
+  display: none;
+}
+.input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.fichevron-down-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 300;
+}
+.ficalendar-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.input-field1 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-01);
+  border: 1px solid var(--neutral-02);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-gray);
+}
+.input-field1,
+.input-field3,
+.text-here {
+  font-family: var(--body-14-bold);
+}
+.input-field3 {
+  border: 1px solid var(--neutral-02);
+  font-weight: 300;
+  font-size: var(--text-s-light-size);
+  background-color: var(--neutral-01);
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-here {
+  position: relative;
+  font-size: var(--body-14-bold-size);
+  line-height: 20px;
+  color: var(--neutral-01);
+  text-align: left;
+}
+.button,
+.button-wrapper,
+.button:hover {
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xs);
+  background-color: var(--primary-limegreen-04);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+}
+.button-wrapper,
+.button:hover {
+  flex-direction: column;
+}
+.button-wrapper {
+  height: 58px;
+  display: flex;
+  justify-content: flex-end;
+}
+.input-parent {
+  position: absolute;
+  top: 482px;
+  left: 220px;
+  width: 999px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.binarcarrentalgmailcom,
+.div,
+.jalan-suroyo-no {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+  width: 268px;
+}
+.binarcarrentalgmailcom,
+.div {
+  top: 56px;
+}
+.div {
+  top: 92px;
+}
+.address {
+  position: relative;
+  width: 268px;
+  height: 112px;
+  flex-shrink: 0;
+}
+.our-services {
+  position: relative;
+  line-height: 20px;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.holder {
+  position: relative;
+  background-color: #c4c4c4;
+  width: 1440px;
+  height: 251px;
+  flex-shrink: 0;
+  display: none;
+}
+.fifacebook-icon,
+.icon-facebook-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+.fifacebook-icon {
+  top: 6px;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+}
+.icon-facebook {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.list-item {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.sosmed {
+  position: relative;
+  width: 268px;
+  height: 68px;
+  flex-shrink: 0;
+}
+.copyright-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary-darkblue-04);
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 100px;
+  height: 34px;
+}
+.copyright {
+  position: relative;
+  width: 268px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.footer {
+  position: absolute;
+  top: 672px;
+  left: 173px;
+  width: 1141px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--body-14-bold-size);
+  color: var(--neutral-011);
+  font-family: var(--body-14-bold);
+}
+.logo,
+.our-services1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+.logo {
+  background-color: var(--primary-darkblue-04);
+  width: 100px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.our-services1 {
+  background-color: transparent;
+  font-size: var(--body-14-bold-size);
+  line-height: 20px;
+  font-family: var(--body-14-bold);
+  color: var(--neutral-011);
+  text-align: left;
+  display: inline-block;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xs);
+  background-color: var(--primary-limegreen-04);
+  border-radius: var(--br-11xs);
+  justify-content: center;
+}
+.button1,
+.header-nav,
+.navigation1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation1 {
+  justify-content: flex-start;
+  gap: 32px;
+}
+.header-nav {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.navigationframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 136px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cari-mobil01 {
+  position: relative;
+  background-color: var(--neutral-01);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--neutral-04);
+  font-family: var(--text-s-light);
+}
+@media screen and (max-width: 960px) {
+  .hero-section {
+    width: 1440px;
+  }
+  .button {
+    flex-direction: column;
+  }
+}
